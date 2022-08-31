@@ -1,0 +1,35 @@
+{
+  "name": "hellodark",
+  "displayName": "hello dark",
+  "description": "hello dark theme  is just for learning new things",
+  "version": "0.0.1",
+  "publisher": "helloTheme",
+  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rahul11nishad/theme.git"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "Hello dark",
+    "helloDark",
+    "hellodark"
+  ],
+ 
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "hello dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hello dark-color-theme.json"
+      }
+    ]
+  }
+}
